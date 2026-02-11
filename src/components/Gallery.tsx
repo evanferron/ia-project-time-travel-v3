@@ -2,6 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Calendar, MapPin, Users } from "lucide-react";
 
+const parisImage = new URL("../../assets/paris.png", import.meta.url).href;
+const dinoImage = new URL("../../assets/dino.png", import.meta.url).href;
+const autreImage = new URL("../../assets/autre.png", import.meta.url).href;
+
 const destinations = [
   {
     id: 1,
@@ -9,7 +13,7 @@ const destinations = [
     subtitle: "The Belle Époque",
     description:
       "Witness the unveiling of the Eiffel Tower at the Exposition Universelle. Experience the golden age of art, culture, and innovation.",
-    image: "../../assets/paris.png",
+    image: parisImage,
     date: "May 6-31, 1889",
     location: "Paris, France",
     capacity: "12 travelers",
@@ -20,7 +24,7 @@ const destinations = [
     subtitle: "The Age of Giants",
     description:
       "Step into a world 66 million years ago. Observe magnificent dinosaurs in their natural habitat with our premium safety protocols.",
-    image: "../../assets/dino.png",
+    image: dinoImage,
     date: "66 Million BCE",
     location: "Laurasia Supercontinent",
     capacity: "8 travelers",
@@ -31,7 +35,7 @@ const destinations = [
     subtitle: "Renaissance Masterpiece",
     description:
       "Watch Leonardo da Vinci and Michelangelo at work. Immerse yourself in the creative revolution that shaped Western art forever.",
-    image: "../../assets/autre.png",
+    image: autreImage,
     date: "October 1504",
     location: "Florence, Italy",
     capacity: "10 travelers",
