@@ -1,10 +1,10 @@
 # 🕰️ TimeTravel Agency — Webapp Interactive
 
 ### 👥 Équipe de Projet
-* **[NOM Prénom 1]**
-* **[NOM Prénom 2]**
-* **[NOM Prénom 3]**
-* **[NOM Prénom 4]**
+* **Bellaud Matias**
+* **Fuzeau Maxime**
+* **Hamon Mathéo**
+* **Ferron Evan**
 
 ---
 
@@ -39,7 +39,7 @@ Si vous souhaitez cloner et lancer le projet localement :
 
 1.  **Cloner le repository :**
     ```bash
-    git clone [LIEN_DE_TON_REPO]
+    git clone https://github.com/evanferron/ia-project-time-travel-v3.git
     ```
 2.  **Installer les dépendances :**
     ```bash
@@ -53,8 +53,8 @@ Si vous souhaitez cloner et lancer le projet localement :
 ---
 
 ## 🔗 Liens de Remise
-* **URL de la Webapp :** [COLLE TON LIEN VERCEL ICI]
-* **Repository GitHub :** [COLLE LE LIEN DE TON REPO ICI]
+* **URL de la Webapp :** https://ia-project-time-travel-v3.vercel.app/
+* **Repository GitHub :** https://github.com/evanferron/ia-project-time-travel-v3
 
 ---
 *Projet réalisé dans le cadre du module Digital & IA — Promo 2026*
